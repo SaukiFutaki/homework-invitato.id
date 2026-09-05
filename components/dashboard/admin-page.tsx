@@ -52,9 +52,9 @@ export function AdminPage({
         description={description}
         tabs={[
           { label: "RSVP", value: "rsvp" },
-          { label: "Notes", value: "notes" },
+          { label: "Wishes", value: "wishes" },
         ]}
-        defaultTab={current.toLowerCase() === "notes" ? "notes" : "rsvp"}
+        defaultTab={current.toLowerCase() === "wishes" ? "wishes" : "rsvp"}
       >
         <Button
           size="sm"

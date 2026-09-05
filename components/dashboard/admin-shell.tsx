@@ -34,8 +34,8 @@ export function AdminShell({ children }: { children: ReactNode }) {
                 <Sidebar.MenuButton icon={UserCheckIcon} active={pathname === "/dashboard/rsvp"} href="/dashboard/rsvp">
                   RSVP
                 </Sidebar.MenuButton>
-                <Sidebar.MenuButton icon={ChatTextIcon} active={pathname === "/dashboard/notes"} href="/dashboard/notes">
-                  Notes
+                <Sidebar.MenuButton icon={ChatTextIcon} active={pathname === "/dashboard/wishes"} href="/dashboard/wishes">
+                  Wishes
                 </Sidebar.MenuButton>
               </Sidebar.Menu>
             </Sidebar.Group>
