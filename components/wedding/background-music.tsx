@@ -15,11 +15,12 @@ export function BackgroundMusic() {
     const play = () => {
       const audio = audioRef.current;
       if (!audio) return;
+      audio.volume = 0.35;
       audio.play().catch(() => undefined);
     };
     window.addEventListener(MUSIC_EVENT, play);
     return () => window.removeEventListener(MUSIC_EVENT, play);
   }, []);
 
-  return <audio ref={audioRef} src="/music.mp3" loop preload="auto" volume={0.35} />;
+  return <audio ref={audioRef} src="/bg-sound.mp3" loop preload="auto" />;
 }
