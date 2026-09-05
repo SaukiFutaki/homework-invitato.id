@@ -1,11 +1,10 @@
-import React from "react";
+import { AdminShell } from "@/components/dashboard/admin-shell";
+import type { ReactNode } from "react";
 
 export default function LayoutDashboard({
   children,
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
 }) {
-  return <div>
-    {children}
-  </div>;
+  return <AdminShell>{children}</AdminShell>;
 }
