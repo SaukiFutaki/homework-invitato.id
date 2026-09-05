@@ -38,7 +38,7 @@ export function Hero() {
     <section
       ref={sectionRef}
       className="relative isolate h-[100dvh] min-h-[40rem] overflow-hidden bg-[#e9e4da] text-stone-950"
-      aria-label="Wedding invitation for Ricky and Felly"
+      aria-label="Wedding invitation for Ricky and Fellycia"
     >
       <motion.div
         className="absolute inset-0 lg:left-[45%]"
@@ -49,7 +49,7 @@ export function Hero() {
       >
         <Image
           src={`${ASSET_PATH}/1.png`}
-          alt="Ricky and Felly standing together on a sailboat"
+          alt="Ricky and Fellycia standing together on a sailboat"
           fill
           priority
           sizes="(min-width: 1024px) 55vw, 100vw"
@@ -139,7 +139,7 @@ function MobileHero() {
   return (
     <section
       className="relative isolate h-[100dvh] min-h-[38rem] overflow-hidden bg-stone-950 text-white"
-      aria-label="Wedding invitation for Ricky and Felly"
+      aria-label="Wedding invitation for Ricky and Fellycia"
     >
       <motion.div
         className="absolute inset-0"
@@ -149,7 +149,7 @@ function MobileHero() {
       >
         <Image
           src={`${ASSET_PATH}/1.png`}
-          alt="Ricky and Felly standing together on a sailboat"
+          alt="Ricky and Fellycia standing together on a sailboat"
           fill
           priority
           sizes="100vw"
@@ -179,7 +179,7 @@ function MobileHero() {
           <h1 className="font-serif text-6xl leading-[0.76]">
             <span className="block">Ricky</span>
             <span className="ml-5 block italic">&amp;</span>
-            <span className="block">Felly</span>
+            <span className="block">Fellycia</span>
           </h1>
           <div className="mt-7 border-l border-white/70 pl-4 font-serif text-xl leading-tight">
             Monday,

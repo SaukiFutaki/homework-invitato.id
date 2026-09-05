@@ -28,7 +28,7 @@ export function EventDetailsSection() {
             >
               <Image
                 src={`${ASSET_PATH}/10.png`}
-                alt="Ricky and Felly by an open window"
+                alt="Ricky and Fellycia by an open window"
                 fill
                 sizes="(min-width: 1024px) 50vw, 100vw"
                 className="object-cover"

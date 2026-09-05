@@ -36,7 +36,7 @@ export function CoupleDetailsSection() {
             </p>
             <RevealWords
               as="h2"
-              text="Felly"
+              text="Fellycia"
               className="mt-7 font-serif text-6xl leading-[0.8] sm:text-8xl"
             />
             <RevealFade className="mt-9 max-w-sm font-sans text-sm leading-7 text-stone-300">

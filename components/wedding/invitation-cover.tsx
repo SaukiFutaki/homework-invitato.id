@@ -65,7 +65,7 @@ function MobileCover({ onOpen }: { onOpen: () => void }) {
       >
         <Image
           src={`${ASSET_PATH}/1.png`}
-          alt="Ricky and Felly on a sailboat"
+          alt="Ricky and Fellycia on a sailboat"
           fill
           priority
           sizes="70vw"
@@ -102,7 +102,7 @@ function DesktopCover({ onOpen }: { onOpen: () => void }) {
       >
         <Image
           src={`${ASSET_PATH}/1.png`}
-          alt="Ricky and Felly on a sailboat"
+          alt="Ricky and Fellycia on a sailboat"
           fill
           priority
           sizes="60vw"
@@ -130,7 +130,7 @@ function CoverHeader() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.3, duration: 0.7 }}
     >
-      <span>Ricky &amp; Felly</span>
+      <span>Ricky &amp; Fellycia</span>
       <span>16.08.27</span>
     </motion.header>
   );

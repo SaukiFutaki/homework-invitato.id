@@ -78,7 +78,7 @@ export function GallerySection() {
           Chapter two / Our story
         </p>
         <p className="absolute left-1/2 top-6 z-10 -translate-x-1/2 font-sans text-sm tracking-wide sm:top-8 lg:top-10">
-          RICKY + FELLY
+          RICKY + Fellycia
         </p>
         <motion.p
           className="absolute left-5 top-1/2 z-20 -translate-y-1/2 font-serif text-4xl sm:left-8 sm:text-6xl lg:left-12 lg:text-7xl"
@@ -96,14 +96,14 @@ export function GallerySection() {
           className="absolute right-5 top-1/2 z-20 -translate-y-1/2 font-serif text-4xl sm:right-8 sm:text-6xl lg:right-12 lg:text-7xl"
           style={{ y: rightY }}
         >
-          Felly
+          Fellycia
         </motion.p>
-        <StoryFrame src="5.png" alt="Ricky and Felly by a sunlit window" start={0} end={0.38} progress={scrollYProgress} className="left-[18%] top-[21%] h-[58%] w-[43%] sm:left-[25%] sm:w-[38%] lg:left-[18%] lg:top-[23%] lg:h-[63%] lg:w-[32%]" />
-        <StoryFrame src="4.png" alt="Felly posed beside a horse" start={0} end={0.38} progress={scrollYProgress} className="right-[10%] top-[11%] h-[25%] w-[18%] lg:right-[12%] lg:h-[31%] lg:w-[14%]" />
-        <StoryFrame src="7.png" alt="Ricky and Felly sharing a quiet moment" start={0.3} end={0.7} progress={scrollYProgress} className="left-[15%] top-[28%] h-[50%] w-[62%] sm:left-[23%] sm:w-[52%] lg:left-[28%] lg:top-[20%] lg:h-[65%] lg:w-[43%]" />
-        <StoryFrame src="8.png" alt="Felly in warm window light" start={0.3} end={0.7} progress={scrollYProgress} className="right-[8%] top-[12%] h-[26%] w-[20%] lg:right-[10%] lg:top-[13%] lg:h-[30%] lg:w-[18%]" />
-        <StoryFrame src="9.png" alt="Ricky and Felly embracing" start={0.62} end={1} progress={scrollYProgress} className="left-[15%] top-[28%] h-[52%] w-[65%] sm:left-[21%] sm:w-[55%] lg:left-[23%] lg:top-[22%] lg:h-[62%] lg:w-[48%]" />
-        <StoryFrame src="6.png" alt="Ricky and Felly together by a window" start={0.62} end={1} progress={scrollYProgress} className="right-[8%] top-[12%] h-[26%] w-[20%] lg:right-[9%] lg:top-[10%] lg:h-[31%] lg:w-[18%]" />
+        <StoryFrame src="5.png" alt="Ricky and Fellycia by a sunlit window" start={0} end={0.38} progress={scrollYProgress} className="left-[18%] top-[21%] h-[58%] w-[43%] sm:left-[25%] sm:w-[38%] lg:left-[18%] lg:top-[23%] lg:h-[63%] lg:w-[32%]" />
+        <StoryFrame src="4.png" alt="Fellycia posed beside a horse" start={0} end={0.38} progress={scrollYProgress} className="right-[10%] top-[11%] h-[25%] w-[18%] lg:right-[12%] lg:h-[31%] lg:w-[14%]" />
+        <StoryFrame src="7.png" alt="Ricky and Fellycia sharing a quiet moment" start={0.3} end={0.7} progress={scrollYProgress} className="left-[15%] top-[28%] h-[50%] w-[62%] sm:left-[23%] sm:w-[52%] lg:left-[28%] lg:top-[20%] lg:h-[65%] lg:w-[43%]" />
+        <StoryFrame src="8.png" alt="Fellycia in warm window light" start={0.3} end={0.7} progress={scrollYProgress} className="right-[8%] top-[12%] h-[26%] w-[20%] lg:right-[10%] lg:top-[13%] lg:h-[30%] lg:w-[18%]" />
+        <StoryFrame src="9.png" alt="Ricky and Fellycia embracing" start={0.62} end={1} progress={scrollYProgress} className="left-[15%] top-[28%] h-[52%] w-[65%] sm:left-[21%] sm:w-[55%] lg:left-[23%] lg:top-[22%] lg:h-[62%] lg:w-[48%]" />
+        <StoryFrame src="6.png" alt="Ricky and Fellycia together by a window" start={0.62} end={1} progress={scrollYProgress} className="right-[8%] top-[12%] h-[26%] w-[20%] lg:right-[9%] lg:top-[10%] lg:h-[31%] lg:w-[18%]" />
         <p className="absolute bottom-6 left-1/2 z-10 -translate-x-1/2 whitespace-nowrap font-serif text-lg italic text-stone-600 sm:bottom-8">
           Scroll through our favorite frames
         </p>
@@ -114,12 +114,12 @@ export function GallerySection() {
 
 function MobileGallery() {
   const images = [
-    ["5.png", "Ricky and Felly by a sunlit window", "aspect-[0.82]"],
-    ["4.png", "Felly posed beside a horse", "aspect-[0.7]"],
-    ["7.png", "Ricky and Felly sharing a quiet moment", "aspect-[1.1]"],
-    ["8.png", "Felly in warm window light", "aspect-[1.1]"],
-    ["9.png", "Ricky and Felly embracing", "aspect-[1.1]"],
-    ["6.png", "Ricky and Felly together by a window", "aspect-[1.1]"],
+    ["5.png", "Ricky and Fellycia by a sunlit window", "aspect-[0.82]"],
+    ["4.png", "Fellycia posed beside a horse", "aspect-[0.7]"],
+    ["7.png", "Ricky and Fellycia sharing a quiet moment", "aspect-[1.1]"],
+    ["8.png", "Fellycia in warm window light", "aspect-[1.1]"],
+    ["9.png", "Ricky and Fellycia embracing", "aspect-[1.1]"],
+    ["6.png", "Ricky and Fellycia together by a window", "aspect-[1.1]"],
   ] as const;
 
   return (
@@ -129,7 +129,7 @@ function MobileGallery() {
       </RevealFade>
       <RevealWords
         as="h2"
-        text="Ricky & Felly"
+        text="Ricky & Fellycia"
         className="mt-5 font-serif text-5xl leading-[0.85]"
       />
       <RevealFade className="mt-5 max-w-xs font-sans text-sm leading-7 text-stone-600">

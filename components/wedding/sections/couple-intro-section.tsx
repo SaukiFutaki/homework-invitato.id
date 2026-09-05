@@ -25,7 +25,7 @@ export function CoupleIntroSection() {
         </RevealFade>
         <RevealImage
           src={`${ASSET_PATH}/2.png`}
-          alt="Ricky and Felly in an elegant monochrome portrait"
+          alt="Ricky and Fellycia in an elegant monochrome portrait"
           className="mt-12 aspect-[0.72] w-[78%]"
           imageClassName="object-[55%_center]"
         />
@@ -35,7 +35,7 @@ export function CoupleIntroSection() {
         />
         <RevealImage
           src={`${ASSET_PATH}/3.png`}
-          alt="Ricky and Felly seated together"
+          alt="Ricky and Fellycia seated together"
           className="mt-8 ml-auto aspect-[0.8] w-[72%]"
           imageClassName="object-[54%_center]"
         />
@@ -63,13 +63,13 @@ export function CoupleIntroSection() {
         <div className="relative min-h-[36rem] sm:min-h-[44rem] lg:col-span-7 lg:min-h-[46rem]">
           <RevealImage
             src={`${ASSET_PATH}/2.png`}
-            alt="Ricky and Felly in an elegant monochrome portrait"
+            alt="Ricky and Fellycia in an elegant monochrome portrait"
             className="absolute left-0 top-0 h-[72%] w-[67%]"
             imageClassName="object-[55%_center]"
           />
           <RevealImage
             src={`${ASSET_PATH}/3.png`}
-            alt="Ricky and Felly seated together"
+            alt="Ricky and Fellycia seated together"
             className="absolute bottom-0 right-0 h-[57%] w-[58%] border-[10px] border-[#f6f5f0] sm:border-[14px]"
             imageClassName="object-[54%_center]"
           />
